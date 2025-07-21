@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praca Inżynierska</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="skrypty.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Projekt narzędzia do analizy phisingu i implementacja w technologi JavaScript</h1>
+        <div id="nav-placeholder"></div>
+    </header>
+    <main>
+        <section id="phi">
+            <h2>Wykrywanie podejrzanego adresu URL, wklej go poniżej:</h2>
+            <form id="phishing-form">
+                <input type="text" id="url-content" placeholder="Wklej podejrzany link" /> <br><br>        
+                <button type="submit">Sprawdź</button>
+            </form>
+                
+            <div id="result" style="margin-top:20px;"></div>
+        
+            <script src="urlrozpoznanie.js"></script>                
+        </section>
+
+
+
+
+   
+    </main>    
+    <footer>
+        <p>&copy; 2025 Praca Inżynierska - Rafał Krajewski</p>
+    </footer>
+</body>
+</html>
